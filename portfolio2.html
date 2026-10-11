@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Portfolio<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn btn-nav">Hire Me</a>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="subtitle">Welcome to my portfolio</span>
+                <h1>Hi, I'm <span class="highlight">Makasud Ansari</span></h1>
+                <h2>Full Stack Web Developer</h2>
+                <p>"I build scalable, high-performance and beautiful web applications. Coding and design are my passions."</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-box">
+                <img src="./WhatsApp Image 2025-11-22 at 23.15.22_1fab71dd.jpg" alt="Your Profile Photo" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>My Introduction & Technical Skills</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>who I am ?</h3>
+                    <p>"I am a professional web developer specializing in converting client requirements into clean code and premium user interfaces. I thrive on problem-solving and strictly adhering to modern coding standards."</p>
+                </div>
+                <div class="skills-container">
+                    <h3>My Tech Stack</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS / Tailwind</div>
+                        <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-tag"><i class="fab fa-react"></i> React.js</div>
+                        <div class="skill-tag"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>"Some of my recent projects"</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project1.jpg" alt="Project 1" onerror="this.src='https://via.placeholder.com/400x250?text=Project+1+Image'">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>Fully responsive shopping cart system with payment integration.</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project2.jpg" alt="Project 2" onerror="this.src='https://via.placeholder.com/400x250?text=Project+2+Image'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Dashboard</h3>
+                        <p>Real-time analytics chart software built for tracking user growth.</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>If you have any project ideas or opportunities, feel free to reach out!</p>
+            </div>
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message Sent Successfully!');">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <textarea rows="6" placeholder="Your Message Here..." required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mks All rights reserved.</p>
+            <div class="social-icons">
+ <!-- LinkedIn --> <a href="https://www.linkedin.com/in/makasud-ansari-02008723b/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin"></i> </a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
